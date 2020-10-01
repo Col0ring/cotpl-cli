@@ -132,6 +132,11 @@ chardet@^0.7.0:
   resolved "https://registry.npm.taobao.org/chardet/download/chardet-0.7.0.tgz?cache=0&sync_timestamp=1601032519509&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchardet%2Fdownload%2Fchardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
   integrity sha1-kAlISfCTfy7twkJdDSip5fDLrZ4=
 
+clear@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/clear/download/clear-0.1.0.tgz#b81b1e03437a716984fd7ac97c87d73bdfe7048a"
+  integrity sha1-uBseA0N6cWmE/XrJfIfXO9/nBIo=
+
 cli-cursor@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/cli-cursor/download/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
@@ -359,6 +364,11 @@ fd-slicer@~1.1.0:
   integrity sha1-JcfInLH5B3+IkbvmHY85Dq4lbx4=
   dependencies:
     pend "~1.2.0"
+
+figlet@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.npm.taobao.org/figlet/download/figlet-1.5.0.tgz#2db4d00a584e5155a96080632db919213c3e003c"
+  integrity sha1-LbTQClhOUVWpYIBjLbkZITw+ADw=
 
 figures@^3.0.0:
   version "3.2.0"

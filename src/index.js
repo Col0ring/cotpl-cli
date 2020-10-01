@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 const fs = require('fs')
 const path = require('path')
-const commander = require('commander')
+const program = require('commander')
 const chalk = require('chalk')
+const clear = require('clear')
+const figlet = require('figlet')
 const inquirer = require('inquirer')
 const symbols = require('log-symbols')
 const download = require('./download')
@@ -10,13 +12,13 @@ const render = require('./render')
 const repositories = require('./repositories')
 
 // version
-commander.version(
+program.version(
   require(path.resolve(__dirname, '../package.json')).version,
   '-V, --version'
 )
 
 // create
-commander
+program
   .command('create <name>')
   .description('create a new project powered by cotpl-cli')
   .action(async (name) => {
@@ -79,5 +81,12 @@ commander
     }
   })
 
+// clear terminal
+clear()
+
+// logo
+console.log(
+  chalk.blueBright(figlet.textSync('Cotpl', { horizontalLayout: 'full' }))
+)
 // parse the argv from terminal
-commander.parse(process.argv)
+program.parse(process.argv)
