@@ -1,0 +1,26 @@
+{
+  "name": "cotpl-cli",
+  "version": "1.0.0",
+  "description": "a cli for quickly creating code templates",
+  "main": "./src/index.js",
+  "bin": {
+    "cotpl": "./src/index.js"
+  },
+  "author": "Col0ring",
+  "homepage": "https://github.com/Col0ring/cotpl-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Col0ring/cotpl-cli.git"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0"
+  }
+}
